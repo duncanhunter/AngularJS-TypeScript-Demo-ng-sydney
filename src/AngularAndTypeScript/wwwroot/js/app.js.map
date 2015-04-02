@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.ts"],"names":[],"mappings":"AAAA,CAAC;IACG,YAAY,CAAC;IAEb,OAAO,CAAC,MAAM,CAAC,KAAK,EAAE,EAAE,CAAC,CAAC;AAC9B,CAAC,CAAC,EAAE,CAAC","file":"app.js","sourceRoot":"C:/Demo/AngularAndTypeScript/src/AngularAndTypeScript/","sourcesContent":["(() => {\r\n    'use strict';\r\n\r\n    angular.module('app', []);\r\n})();"]}

@@ -1,0 +1,18 @@
+﻿<div ng-controller="app.beer.BeerController as vm">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <td>Name</td>
+            <td>Colour</td>
+            <td>Has Tried</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="beer in vm.beers">
+            <td>{{beer.Name}}</td>
+            <td>{{beer.Colour}}</td>
+            <td><input type="checkbox" ng-model="beer.HasTried"/></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
